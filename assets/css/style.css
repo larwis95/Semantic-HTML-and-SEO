@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Got rid of DIV header class selector, replaced with Header Element selector*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +15,18 @@ header {
     color: #ffffff;
 }
 
+/* Got rid of class h1 selector, replaced with H1 header selector */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changed <span> class selector to seo class selector */
 .seo {
     color: #d9dcd6;
 }
 
+/* got rid of header div selector, replaced with nav element selector */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,10 +34,13 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+/* used UL element selector instead of a class selector */
 ul {
     list-style-type: none;
 }
 
+/* used LI element selector instead of a class selector */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -49,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* removed background-image, used <img> tag in  HTML instead for alt attribute */
 .hero {
     height: 800px;
     width: 100%;
@@ -73,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/* replaced div class selector with aside element selector */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -186,6 +194,7 @@ aside {
     font-size: 36px;
 }
 
+/* got rid of footer div, replaced with footer element, used footer element selector */
 footer {
     padding: 30px;
     clear: both;
@@ -193,6 +202,7 @@ footer {
     text-align: center;
 }
 
+/* got rid of old footer class h2 selector replaced with footer-h2 id selector */
 #footer-h2 {
     font-size: 20px;
 }
