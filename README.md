@@ -9,7 +9,7 @@ N/A
 
 ## Usage
 
-Navigate in your browser to: https://larwis95.github.io/Semantic-HTML-and-SEO/. View the webpage and use the links in the nav bar to learn more about search engine optimization. ![The website should look like this screenshot](./Assets/images/semantic-html-screenshot.png)
+Navigate in your browser to: https://larwis95.github.io/Semantic-HTML-and-SEO/. View the webpage and use the links in the nav bar to learn more about search engine optimization. ![The website should look like this screenshot](./assets/images/semantic-html-screenshot.png)
 
 ## License
 
