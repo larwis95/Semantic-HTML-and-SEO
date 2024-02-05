@@ -21,8 +21,8 @@ h1 {
     font-size: 48px;
 }
 
-/* Changed <span> class selector to seo class selector */
-.seo {
+/* Changed seo <span> class selector to strong element selector */
+strong {
     color: #d9dcd6;
 }
 
@@ -92,32 +92,14 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Replaced multiple benefit classes with */
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+/* removed multiple h3 class selectors, replaced with element selector */
+h3{
     margin-bottom: 10px;
     text-align: center;
 }
