@@ -92,7 +92,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* Replaced multiple benefit classes with */
+/* Replaced multiple benefit classes with single benefits class */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,19 +104,8 @@ h3{
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* replaced multiple benefits img class selectors with single benefits-img class selector */
+.benefits-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
