@@ -15,17 +15,6 @@ header {
     color: #ffffff;
 }
 
-/* Got rid of class h1 selector, replaced with H1 header selector */
-h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-/* Changed seo <span> class selector to strong element selector */
-strong {
-    color: #d9dcd6;
-}
-
 /* got rid of header div selector, replaced with nav element selector */
 nav {
     padding-top: 15px;
@@ -33,6 +22,50 @@ nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+/* replaced class selector with article element selector */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* replaced div class selector with aside element selector */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* got rid of footer div, replaced with footer element, used footer element selector */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Got rid of class h1 selector, replaced with H1 header selector */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* removed multiple h3 class selectors, replaced with element selector */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Changed seo <span> class selector to mark element selector */
+strong {
+    color: #d9dcd6;
 }
 
 /* used UL element selector instead of a class selector */
@@ -74,44 +107,21 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* replaced div class selector with aside element selector */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 /* Replaced multiple benefit classes with single benefits class */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* removed multiple h3 class selectors, replaced with element selector */
-h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* replaced multiple benefits img class selectors with single benefits-img class selector */
-.benefits-img {
+/* replaced multiple benefits img class selectors with single benefits img class element selector */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* removed multiple recursive class selectors replaced with one main-content class selector */
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,57 +130,15 @@ h3{
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* replaced multiple recursive img selectors under main-content with a single class element selector */
+.main-content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* replaced multiple recursive h2 selectors under main-content with a single class element selector */
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* got rid of footer div, replaced with footer element, used footer element selector */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 
 /* got rid of old footer class h2 selector replaced with footer-h2 id selector */
