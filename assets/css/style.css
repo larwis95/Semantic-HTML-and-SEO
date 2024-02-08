@@ -51,6 +51,11 @@ footer {
     text-align: center;
 }
 
+/* got rid of old footer class h2 selector replaced with footer h2 element selector */
+footer h2 {
+    font-size: 20px;
+}
+
 /* Got rid of class h1 selector, replaced with H1 header selector */
 h1 {
     display: inline-block;
@@ -63,7 +68,7 @@ h3 {
     text-align: center;
 }
 
-/* Changed seo <span> class selector to mark element selector */
+/* Changed seo <span> class selector to strong element selector */
 strong {
     color: #d9dcd6;
 }
@@ -141,7 +146,3 @@ p {
     font-size: 36px;
 }
 
-/* got rid of old footer class h2 selector replaced with footer-h2 id selector */
-#footer-h2 {
-    font-size: 20px;
-}
