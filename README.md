@@ -1,7 +1,7 @@
 # Semantic HTML and SEO
 
 ## Description
-Semantic HTML and SEO is a webpage demonstrating the importance of semantic HTML and it's role in search engine optimization.
+Semantic HTML and SEO is a webpage demonstrating the importance of semantic HTML and its role in search engine optimization.
 
 ## Installation
 
